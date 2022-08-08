@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+
+    public class Eleicao {
+        public static void main(String[] args) {
+            Scanner scanner = new Scanner(System.in);
+
+            double anoAtual, AnoNasc;
+
+            System.out.println("informe seu ano de nsc:");
+            AnoNasc = scanner.nextDouble();
+            System.out.println("informe seu ano Atual: ");
+            anoAtual = scanner.nextDouble();
+
+
+
+            if( anoAtual - AnoNasc >= 16 ){
+                System.out.println("Apta para votar");
+            }
+        }
+    }

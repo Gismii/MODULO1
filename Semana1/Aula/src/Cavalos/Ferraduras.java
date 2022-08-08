@@ -1,0 +1,17 @@
+package Cavalos;
+
+import java.util.Scanner;
+
+public class Ferraduras {
+    public static void main(String[] args) {
+        Scanner sacnner = new Scanner(System.in);
+        System.out.println("Informe quanto cavalos:");
+        int qtdCavalos =  sacnner.nextInt();
+        int qtdFerradura = 4;
+        System.out.println("A quantidade de ferradura é:" + qtdFerradura * qtdCavalos);
+
+
+
+
+    }
+}
